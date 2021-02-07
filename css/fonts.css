@@ -1,0 +1,47 @@
+@font-face {
+  font-family: hack;
+  src: url(/fonts/Hack-Regular.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: hack-it;
+  src: url(/fonts/Hack-Italic.ttf) format("truetype");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: hack-bo;
+  src: url(/fonts/Hack-Bold.ttf) format("truetype");
+  font-weight: bold;
+}
+
+.menu {
+  font-family: hack-bo;
+  font-size: 19px;
+}
+
+.title {
+  font-family: hack-bo;
+  font-size: 50px;
+  text-shadow: 3px 3px #b3b3b3;
+}
+
+.projekt-title { 
+  font-size: 18px; 
+}
+
+.date {
+  font-family: hack;
+  font-size: 17px;
+}
+
+body {
+  font-family: hack;
+  font-size: 16px;
+}
+
+footer {
+   font-family: hack;
+   font-size: 13px; 
+}
