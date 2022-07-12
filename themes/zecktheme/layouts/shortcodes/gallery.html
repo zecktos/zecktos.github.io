@@ -1,0 +1,23 @@
+
+
+
+
+
+
+
+{{ $baseURL := .Site.BaseURL }}
+	{{- with (.Get "dir") -}}
+	<div class="gallery">
+		<!-- If a directory was specified, generate figures for all of the images in the directory -->
+		{{- $files := readDir (print "/static/" .) }}
+		{{- range $files -}}
+			<!-- skip files that aren't images, or that inlcude the thumb suffix in their name -->
+			{{- $isimg := lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp)" }}<!-- is the current file an image? -->
+			{{- if $isimg }}
+				{{- $linkURL := print $baseURL ($.Get "dir") "/" .Name | absURL }}<!-- absolute URL to hi-res image -->
+				 <img src="{{ $linkURL }}" />
+			{{- end }}
+		{{- end }}
+	</div>
+	{{- end }}
+

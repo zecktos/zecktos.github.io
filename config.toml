@@ -1,0 +1,26 @@
+baseURL = "https://zecktos.github.io/"
+languageCode = "en-us"
+title = "zecktos"
+theme = "zecktheme"
+summaryLength = 20
+Paginate = 15
+
+[Author]
+name = "zecktos"
+twitter = "https://twitter.com/zecktos"
+email = "mailto:zecktos@disroot.org"
+github = "https://github.com/zecktos"
+
+[Params]
+titel = "zecktos"
+favicon = "/img/logo.png"
+
+[menu]
+
+[[menu.main]]
+name = "about"
+url = "/about/"
+weight = 1
+
+[markup.goldmark.renderer]
+unsafe= true

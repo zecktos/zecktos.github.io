@@ -1,0 +1,24 @@
+{{ partial "header.html" . }}
+
+<main>
+	<div class="portfolio" >
+          {{ range .Pages.ByWeight }}
+	  	{{ if in .Params.portfolio "yes" }}
+			{{ if not (in .Params.pair "end") }}
+			<div class="column" >
+			{{ end }}
+			<div class="projekt" >
+			<a href="{{ .Permalink }}" >
+			<div class="projekt-title">{{ .Title }} </div>
+			<img src="{{ .Params.thumbnail }}" />
+			</a>
+			</div>
+			{{ if not (in .Params.pair "start") }}
+			</div>
+			{{ end }}
+		{{ end }}
+          {{ end }}
+	  </div>
+</main>
+
+{{ partial "footer.html" . }}
