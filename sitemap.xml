@@ -3,7 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://zecktos.github.io/avatars/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zecktos.github.io/wdmf/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zecktos.github.io/mot/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zecktos.github.io/shybot/</loc>
+  </url>
+  
+  <url>
     <loc>https://zecktos.github.io/soap/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zecktos.github.io/blendercabana/</loc>
   </url>
   
   <url>
@@ -12,14 +32,6 @@
   
   <url>
     <loc>https://zecktos.github.io/morph/</loc>
-  </url>
-  
-  <url>
-    <loc>https://zecktos.github.io/shybot/</loc>
-  </url>
-  
-  <url>
-    <loc>https://zecktos.github.io/blendercabana/</loc>
   </url>
   
   <url>
