@@ -67,6 +67,12 @@ main h1 {
   flex-wrap: wrap;
 }
 
+.nocolumn {
+  flex:100%;
+  padding: 8px;
+  padding-left: 20px;
+}
+
 .column {
   flex: 50%;
   /*
