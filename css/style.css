@@ -199,13 +199,14 @@ pre {
   box-shadow: 5px 5px 5px #eee;
   padding: 1em;
   overflow-x: auto;
+  background:#e4dddd;
 }
 
 code { 
   background: #f9f9f9; 
 }
 pre code { 
-background: none; 
+  background: none; 
 }
 
 /* misc elements */
